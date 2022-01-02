@@ -1,0 +1,10 @@
+body{
+    background-image: url(image\ \(3\).JPG);
+    background-position: 5%;
+}
+p{
+    color: tomato;
+    margin: 15px;
+    text-align: justify;
+    border: 2px dotted rgb(247, 44, 8);
+}
