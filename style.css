@@ -1,10 +1,40 @@
-body{
-    background-image: url(image\ \(3\).JPG);
-    background-position: 5%;
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0px;
 }
-p{
-    color: tomato;
-    margin: 15px;
-    text-align: justify;
-    border: 2px dotted rgb(247, 44, 8);
+h1 {
+  font-size: 50px;
+  margin: 20px;
+}
+h3 {
+  font-size: 20px;
+  margin: 25px;
+}
+p {
+  margin: 25px;
+  text-align: justify;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 80%;
+  padding: 5%;
+}
+.half-width img {
+  width: 60%;
+  padding: 5%;
+}
+.hire_me {
+  text-decoration: none;
+  background-color: rgb(235, 42, 8);
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 25px;
+  background-image: linear-gradient(rgb(248, 71, 39), orange);
+  font-weight: 700;
+}
+.top_banner {
+  background-image: url(top-banner.png);
+  background-repeat: no-repeat;
 }
